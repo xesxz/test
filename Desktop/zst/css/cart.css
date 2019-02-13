@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ul li{list-style:none;}
+a{text-decoration:none;}
+
+.top{
+    width: 100%;
+    height: 34px;
+    background: black;
+}
+.top .wrap{
+    width: 1000px;
+    height: 34px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+}
+.top .wrap .left{
+    float: left;
+    color: #ffff;
+}
+
+.top .wrap .right{
+    float: right;
+}
+
+.top .wrap .right
+
+

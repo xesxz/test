@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+</head>
+
+<body>
+    <div class="notice_con">
+        <span>
+            【新春礼遇】2/4-2/10全场任意购物即可尊享肌活焕采洁面膏 7mL，资生堂官网祝你新春快乐！
+        </span>
+    </div>
+    <div class="top">
+        <div class="left">
+            全场免运费
+        </div>
+    </div>
+    <h1>
+        <img src="img/logo.jpg" alt="">
+    </h1>
+
+    <header>
+        <nav>
+            <ul>
+                <li>首页</li>
+                <li>护肤</li>
+                <li>彩妆</li>
+                <li>男士</li>
+                <li>新春礼遇</li>
+                <li>明星产品</li>
+                <li>官网购物理由</li>
+                <li>品牌故事</li>
+                <li>专柜导航</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <script src="js/tools.js"></script>
+    <script src="dist/js/swiper.min.js"></script>
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // 垂直切换选项
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // 如果需要滚动条
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        })        
+    </script>
+
+    <div class="out">
+        <div class="wrap">
+            <ul class="in">
+                <li>
+                    <img src="img/pic1.png" alt="">
+                    <p><a href="">傲娇精华50mL礼盒</a></p>
+                    <a href="">加入购物车</a>
+
+                </li>
+                <li>
+                    <img src="img/pic2.png" alt="">
+                    <p><a href="">抵御红三角套装</a></p>
+                    <a href="">加入购物车</a>
+                </li>
+                <li>
+                    <img src="img/pic3.png" alt="">
+                    <p><a href="">悦薇水乳套装</a></p>
+                    <a href="">加入购物车</a>
+                </li>
+                <li>
+                    <img src="img/pic4.png" alt="">
+                    <p><a href="">智能”气垫致彩套装</a></p>
+                    <a href="">加入购物车</a>
+                </li>
+            </ul>
+        
+            <h3>新品上市</h3>
+
+            <ul class="in1">
+                <li>
+                    <img src="img/a.png" alt="">
+                    <p><a href="">红妍肌活精华露<br>缎造物语限量版</a></p>
+                    <p class="price">￥1040</p>
+                    <a href="">加入购物车</a>
+                </li>
+                 <li>
+                    <img src="img/b.png" alt="">
+                    <p><a href="">随肌应变气垫粉底液花椿限量版粉盒</a></p>
+                    <p class="price">￥100</p>
+                    <a href="">加入购物车</a>
+                </li>
+                 <li>
+                    <img src="img/c.png" alt="">
+                    <p><a href="">随肌应变祛斑臻白气垫粉底液花椿限量版粉盒</a></p>
+                    <p class="price">￥100</p>
+                    <a href="">加入购物车</a>
+                </li>
+                 <li>
+                    <img src="img/d.png" alt="">
+                    <p><a href="">肌源焕活精萃水（滋润型）</a></p>
+                    <p class="price">￥450</p>
+                    <a href="">加入购物车</a>
+                </li>
+            </ul>
+            <h3>最新资讯</h3>
+            <div class="box">
+                <a href="">
+                    <img src="img/a1.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="footer">
+            <p>
+                <a href="">美容常见问题</a><span>|</span>
+                <a href="">网站常见问题</a><span>|</span>
+                <a href="">免责·隐私权保护</a><span>|</span>
+                <a href="">联系我们</a><span>|</span>
+                <a href="">服务条款</a><span>|</span>
+               
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

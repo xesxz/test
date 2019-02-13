@@ -1,0 +1,205 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ul li{list-style:none;}
+a{text-decoration:none;}
+
+
+.notice_con{
+    width: 100%px;
+    height: 30px;
+    background: red;
+    text-align: center;
+}
+
+.notice_con span{
+    color: #ffffff;
+    font-size: 12px;
+    
+}
+
+.top{
+    width: 100%;
+    height: 30px;
+    background: black;
+}
+
+
+.top .left{
+    color: #ffffff;
+    width:  265px;
+    height: 30px;
+    background-image: url(img/icon1.jpg);
+    font-size: 12px;
+}
+
+h1{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+
+}
+
+header{
+    width: 1265px;
+    height: 70px;
+}
+header nav ul li{
+    float: left;
+    padding: 0 18px;
+}
+.swiper-container {
+    width: 100%;
+    height: 500px;
+}
+
+
+.swiper-container .swiper-wrapper .swiper-slide{
+
+    text-align: center;
+    
+    
+    overflow:hidden;
+
+
+}
+/* .swiper-container .swiper-wrapper img{
+  
+  
+    
+}  */
+
+.out{
+    width: 100%;
+
+    height: 1620px;
+  
+}
+
+.wrap{
+    width: 1100px;
+    height: 915px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.in{
+    width: 1100px;
+    height: 320px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.out .in li{
+    text-align: center;
+    width: 253px;
+    height: 286px;
+}
+
+.out .in li img{
+    width: 253px;
+    height: 186px;
+}
+
+.out .in li :nth-child(2){
+    margin-top: 10px;
+}
+
+.out .in li :nth-child(3){
+    width: 130px;
+    height: 35px;
+    display: block;
+    background-color: #670205;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+    margin: 30px auto;
+
+}
+
+.out .wrap h3{
+    height: 37px;
+    text-align: center;
+    margin-top: 38px;
+    border-top: 1px solid;
+    text-decoration: none;
+}
+.out .wrap .in1{
+    height: 400px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.out .wrap .in1 li img{
+    height: 235px;
+    width: 235px;
+}
+
+
+.out .wrap .in1 li{
+    text-align: center;
+   
+}
+
+
+
+
+.out .wrap .in1 li :nth-child(4){
+    width: 130px;
+    height: 35px;
+    display: block;
+    background-color: #670205;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+    margin: 30px auto;
+
+}
+
+.out .wrap .box{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+   
+   
+}
+
+.out .wrap .box a img{
+    width: 1000px;
+}
+
+.bottom{
+    width: 100%;
+    height: 200px;
+    background: #eeeeee
+}
+.bottom .footer{
+    width: 955px;
+    height: 50px;
+    border: 1px solid;
+    margin: 0 auto;
+    
+}
+
+
+
+
+.bottom .footer p span{
+    float: left;
+}
+.bottom .footer p a{
+    text-decoration:none;
+    color:black;
+    float:left;
+    padding:0 5px;
+    }
+
+    
+
